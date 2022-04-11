@@ -19,11 +19,8 @@ import java.util.Map;
 public class BestSumMemoized {
 
     public static void main(String[] args) {
-
         Map<Integer, List<Integer>> bestSumMap = new HashMap<>();
         System.out.println(bestSum(7, new int[]{1, 4, 3, 2}, bestSumMap));
-
-
     }
 
     private static List<Integer> bestSum(int targetSum, int[] numbers, Map<Integer, List<Integer>> bestSumMap) {
